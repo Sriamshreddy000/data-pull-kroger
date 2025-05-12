@@ -5,10 +5,4 @@ Git repository of Dashboard used in this project can also be found under the nam
 
 Project Website URL: https://retail-clv-project.ue.r.appspot.com
 
-Dashboard URL (Integrated into the Project Website, Posting Here For reference):
-
-https://retail-dashboard-872954687258.us-east1.run.app
-
-Project Website Code: https://github.com/Anirudh64210/data-pull-kroger.git
-
-Dashboard Code: https://github.com/Anirudh64210/retail-kroger-dashboard.git
+Dashboard URL (Integrated into the Project Website, Posting Here For reference): https://retail-dashboard-872954687258.us-east1.run.app
