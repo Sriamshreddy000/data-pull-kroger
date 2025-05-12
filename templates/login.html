@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        form {
+            text-align: center;
+            padding: 30px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            width: 300px;
+        }
+
+        input,
+        button {
+            margin: 10px 0;
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <form method="POST">
+        <h1>Login</h1>
+        <input type="email" name="email" placeholder="Enter your email" required><br>
+        <input type="text" name="username" placeholder="Enter your name" required><br>
+        <input type="password" name="password" placeholder="Enter your password" required><br>
+        <button type="submit">Login</button>
+    </form>
+</body>
+
+</html>

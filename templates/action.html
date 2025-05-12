@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Choose Action</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        form {
+            text-align: center;
+            padding: 30px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        input,
+        select,
+        button {
+            margin: 10px 0;
+            padding: 10px;
+            width: 250px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <form method="POST" enctype="multipart/form-data">
+        <h1>Choose an Action</h1>
+
+        <input type="text" name="hshd_num" placeholder="Enter HSHD_NUM to search"><br><br>
+        <button type="submit">Submit</button>
+        <h1>OR</h1>
+        <label for="file_type">Upload a CSV file:</label><br>
+        <select name="file_type" id="file_type">
+            <option value="">Select File Type</option>
+            <option value="transactions">Transactions</option>
+            <option value="households">Households</option>
+            <option value="products">Products</option>
+        </select><br><br>
+
+        <input type="file" name="csv_file"><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
